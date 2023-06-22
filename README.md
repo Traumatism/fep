@@ -34,4 +34,4 @@ class ExampleModule(Module):
         return 0
 ```
 
-**Don't forget to import your module class in modules/__init__.py**
+**Don't forget to import your module class in `modules/__init__.py`**
