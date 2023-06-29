@@ -72,9 +72,8 @@ class Ui:
 
     def handle_cmd_with_args(self, cmd: str, args: list[str]):
         """Handle a command with arguments"""
-        command = self.commands.get(cmd)
 
-        if command is None:
+        if (command := self.commands.get(cmd)) is None:
             self.console.log(f"Command `{cmd}` not found.")
             return
 
