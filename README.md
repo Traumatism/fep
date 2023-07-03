@@ -11,10 +11,6 @@ git clone https://github.com/traumatism/fep && cd fep && bash setup.sh
 
 ### Add module
 
-Create your file in `modules/` (Folder created by `setup.sh`)
-
-Paste the next code:
-
 ```py
 from fep.common.module import Module
 
