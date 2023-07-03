@@ -3,21 +3,9 @@ from fep.ui import Ui
 from rich.table import Table
 from rich.box import SIMPLE
 
-from modules import (
-    AcGovBrDL,
-    Allo119GouvFrDL,
-    EducacionGobEsDL,
-    EducationGouvFrRCE,
-    PuntaindioGovArDL,
-)
+from modules import *
 
-MODULES = (
-    (AcGovBrDL()),
-    (Allo119GouvFrDL()),
-    (EducacionGobEsDL()),
-    (EducationGouvFrRCE()),
-    (PuntaindioGovArDL()),
-)
+MODULES = ()
 
 ui = Ui()
 
