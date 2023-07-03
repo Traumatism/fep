@@ -27,6 +27,7 @@ list(map(ui.add_module, MODULES))
 @ui.add_command
 def vars(args):
     """Display variables (syntax: `vars`)"""
+
     if len(args):
         yield "Usage: `vars`"
         return
