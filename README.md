@@ -3,12 +3,6 @@
 
 FEP is a general purpose exploitation framework made in Python.
 
-### Setup
-
-``` bash
-git clone https://github.com/traumatism/fep && cd fep && bash setup.sh
-```
-
 ### Add module
 
 ```py
